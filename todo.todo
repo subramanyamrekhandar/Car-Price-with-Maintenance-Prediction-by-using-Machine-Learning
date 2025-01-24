@@ -1,0 +1,26 @@
+Create A Conda Environment and cofigures to activate the Environment ( Anaconda Navigator)
+--> conda create -n yolo_AirCraft python=3.8
+--> conda activate yolo_AirCraft
+
+necessary instaling libraries
+--> pip install -r requirements.txt
+
+pip install streamlit numpy pandas scikit-learn joblib plotly
+pip install matplotlib
+pip install plotly
+pip install joblib
+pip install scikit-learn
+pip install pandas
+pip install numpy or conda install numpy  mostly use conda for numpy
+pip install streamlit
+
+
+--> This is version for maintaince prediction module 
+numpy==1.24.3
+pandas==2.0.3
+scikit-learn==1.3.2
+joblib==1.4.2
+plotly
+
+Just Run Pipeline to manage the Two features
+---> streamlit run app.py
